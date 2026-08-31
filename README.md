@@ -1,2 +1,5 @@
 # computer-vision-biometric-robotic-hand
-Inmoov robotic hand using computer vision to move in real time with physical hand motions
+
+A real-time robotic hand that mirrors human hand movements using computer vision and servo control.
+
+## Demo
