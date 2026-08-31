@@ -4,4 +4,4 @@ A real-time robotic hand that mirrors human hand movements using computer vision
 
 ## Demo Prototype
 
-https://github.com/user-attachments/assets/b8db60b1-a513-4d1f-b9c7-8a3042064716
+https://github.com/user-attachments/assets/25cb12b8-40ed-42f7-a7ef-f748055aacc3
