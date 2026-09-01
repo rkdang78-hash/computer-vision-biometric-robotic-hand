@@ -17,10 +17,6 @@ To put it simply, I used MediaPipe to process the camera feed and detect the lan
 - Bench power supply
 - Breadboard and wiring
 
-## Wiring
-<img width="911" height="672" alt="image" src="https://github.com/user-attachments/assets/4aac1e7b-d4ae-4b59-a1ab-6ac757a5015d" />
-
-
 ## Software
 - Python 3.11
 - MediaPipe
