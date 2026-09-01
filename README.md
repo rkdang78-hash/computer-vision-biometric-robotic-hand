@@ -121,8 +121,7 @@ Good lighting gives more consistent readings
 If a finger feels unresponsive its min and max values are probably too close together — spread them further apart
 The thumb is the trickiest finger, if it feels off try adjusting its values independently first
 
-## Results
-Photos and videos of it working
 
 ## Future Improvements
-What you plan to add next
+- Make a custom pcb to clean up the breadboard mess and make it less prone to error from loose wiring
+- Implement 3 point angle calculation for better accuracy for finger tracking
