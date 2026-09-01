@@ -28,37 +28,37 @@ To put it simply, I used MediaPipe to process the camera feed and detect the lan
 - PySerial
 
 ## Installation
-Clone the repository
+- Clone the repository
 
 git clone https://github.com/yourusername/computer-vision-robotic-hand
 cd computer-vision-robotic-hand
 
-Install Python dependencies
+- Install Python dependencies
 
 pip install mediapipe opencv-python pyserial
 
-Upload Arduino sketch
+- Upload Arduino sketch
 
 Open arduino/servo_control.ino in Arduino IDE
 Select board: Tools → Board → Arduino Uno
 Select port: Tools → Port → COM# (your port)
 Click upload
 
-Hardware setup
+- Hardware setup
 
 Wire PCA9685 to Arduino (VCC→5V, GND→GND, SDA→A4, SCL→A5)
 Connect servos to PCA9685 channels 0-4
 Connect power supply to PCA9685 terminal block (5V, 5A)
 Connect webcam to computer
 
-Configure serial port
+- Configure serial port
 
 Open python/hand_tracking.py
 Change COM4 to your Arduino's COM port:
 python
 arduino = serial.Serial('COM4', 9600)
 
-Run
+- Run
 
 py -3.11 python/hand_tracking.py
 Calibration Note
