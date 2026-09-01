@@ -76,11 +76,11 @@ print(f"{finger}: {relative_dist:.4f}")
 
 - Step 2 — Find your open hand values
 
-Run the script and hold your hand fully open and flat in front of the camera. Note the values printing for each finger — these are your maximum distances.
+Run the script and hold your hand fully open and flat in front of the camera. Note the values printing for each finger, these are your maximum distances.
 
 - Step 3 — Find your closed hand values
 
-Make the tightest fist you can and note the values printing for each finger — these are your minimum distances.
+Make the tightest fist you can and note the values printing for each finger, these are your minimum distances.
 
 - Step 4 — Update the calibration values
 
@@ -111,15 +111,15 @@ Delete the calibration print line you added in Step 1.
 
 Run the script and confirm:
 
-Open hand  → all fingers read close to 0°
-Tight fist → all fingers read close to 180°
+Open hand  = all fingers read close to 0°
+Tight fist = all fingers read close to 180°
 
 Tips
 
 Keep your hand at a consistent distance from the camera during calibration
 Good lighting gives more consistent readings
 If a finger feels unresponsive its min and max values are probably too close together — spread them further apart
-The thumb is the trickiest finger — if it feels off try adjusting its values independently first
+The thumb is the trickiest finger, if it feels off try adjusting its values independently first
 
 ## Results
 Photos and videos of it working
